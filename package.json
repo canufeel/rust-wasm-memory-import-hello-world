@@ -1,0 +1,13 @@
+{
+  "name": "rust-wasm-memory-import-hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:rs": "sh bin/build-rs.sh",
+    "build": "yarn build:rs",
+    "start": "yarn build && node js/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
